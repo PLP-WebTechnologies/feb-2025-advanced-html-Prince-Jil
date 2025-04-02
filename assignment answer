@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTML lists, images, tables and forms</title>
+    </head>
+    <body>
+        <h1>HTML lists</h1>\
+        <h3>Ordered Lists</h3>
+        <ol type="a">
+            <li>python</li>
+            <li>wed development</li>
+            <li>software engineering</li>
+        </ol>
+        <dl>
+            <dt>html</dt>
+            <dd>hyper text mark up language</dd>
+        </dl>
+        <h1>Embedding Multimedia</h1>
+        <h3>audio</h3>
+        <audio controls><source src="instumental.mp3" type="audio/mp3">  </audio>
+        <h3>Videos</h3>
+        <video controls width="640" height="360">
+            <source src=""  type="video/mp4">
+        </video>
+        <h1>Images</h1>
+        <img src="red car.jpg" alt="a red car" width="300p" height="200px">
+        <h1>Tables</h1>
+        <table border="1">
+            <caption>Individual information</caption>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>age</th>
+                    <th>county</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>jil nnorom</td>
+                        <td>29</td>
+                        <td>nigeria</td>
+                    </tr>
+                    <tr>
+                        <td>leah yunusa</td>\
+                        <td>29</td>
+                        <td>nigeria</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <th>name</th>
+                    <th>age</th>
+                    <th>country</th>
+                </tfoot>
+            </thead>
+
+        </table>
+        <h1>html forms</h1>
+       <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="name">
+        <br><br>
+        <label for="sex">sex</label>
+        <input type="radio" id="sex" name="sex" value="male">Male
+        <input type="radio" id="sex" name="sex" value="female">Female
+        <br><br>
+        <label for="select-country">Select country</label>
+        <select name="select-country" id="select-country">
+            <option>--select country--</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="kenya">Kenya</option>
+            <option value="Namibia">Namibia</option>
+        </select>
+        <br><br>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <input type="button" name="submit" id="submit" value="Submit">
+        </form>
+    </body>
+</html>
